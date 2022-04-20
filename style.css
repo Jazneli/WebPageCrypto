@@ -1,0 +1,165 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size:  1.2rem;
+    line-height: 1.6rem;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.3em;
+    color: #4ADEDE;
+    text-align: center;
+}
+
+h2 {
+    color: #787FF6;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+h3 {
+    color: #FF9190;
+}
+
+.cryp h3 {
+    color: #FDC094;
+    text-align: center;
+}
+
+h4 {
+    color:  #FF9175;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1.6rem;
+    text-align: justify;
+}
+
+.refer p{
+    font-size: x-small;
+    line-height: normal;
+}
+
+.sobre-mí ul {
+    margin-bottom: 1.6rem;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header {
+    /*background: #0B0742;*/
+    background: #1F2F98;
+    color:white;
+    padding: 2rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.redes a{
+    text-decoration: none;
+    color: black;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    letter-spacing: 8px;
+    font-size: 1.4em;
+}
+
+.menu-icon {
+    display:none;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 0.5rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+    /*background: #5E72EB;*/
+    background: #7BD5F5;
+}
+
+.main {
+    padding-top: 8rem;
+}
+
+.footer {
+    /*background: #120C6E;*/
+    background: #1CA7EC;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 767px){
+    .menu-icon {
+        display:block;
+        cursor: pointer;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .navigation {
+        width: 100%;
+        margin-top: 1rem;
+
+    }
+
+    .navigation ul {
+        display: none;
+    }
+
+    .navigation ul.show {
+        display: block;
+    }
+
+    .navigation ul li {
+        display: block;
+    }
+    
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 0.5rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    
+    .navigation ul li a:hover {
+        /*background: #5E72EB;*/
+        background: #7BD5F5;
+    }
+}
